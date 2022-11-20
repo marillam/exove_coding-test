@@ -1,0 +1,26 @@
+.description {
+    margin-top: 25px;
+}
+
+div {
+    padding: 10px;  
+}
+
+.colored {
+    padding: 20px 15px 20px 15px;
+    background-color: aquamarine;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 960px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
